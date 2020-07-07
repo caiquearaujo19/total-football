@@ -1,0 +1,7 @@
+<div class="page-header">
+  <span class="home-button" [routerLink]="['/home']"><img src="../../../assets/icons/home.svg"></span>
+  <span class="breadcrumb-item" *ngFor="let item of breadcrumb; let i = index">
+    <span class="breadcrumb-item__text" [routerLink]="[setRoute(i)]">{{item}}</span>
+    <img class="arrow" src="../../../assets/icons/arrow-right.svg">
+  </span>
+</div>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="282.236mm" height="282.268mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1943.5 1943.72"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Negrito"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="A" horiz-adv-x="722" d="M717.999 0l-156.167 0 -61.8328 163 -287.166 0 -59.4998 -163 -153.334 0 278 716 153.167 0 286.833 -716zm-264.999 284l-99.4993 264.999 -96.6668 -264.999 196.166 0z"/>
+   <glyph unicode="F" horiz-adv-x="610" d="M73 0l0 716 492 0 0 -120.999 -347.001 0 0 -170 300.001 0 0 -121.001 -300.001 0 0 -304 -144.999 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .str0 {stroke:black;stroke-width:7.29;stroke-miterlimit:22.9256}
+    .fil0 {fill:black}
+    .fil2 {fill:#009300}
+    .fil4 {fill:#1C1CFF}
+    .fil1 {fill:yellow}
+    .fil3 {fill:white}
+    .fnt0 {font-weight:bold;font-size:489.37px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1929048884656">
+   <path class="fil0" d="M1941.16 1042.33c-38.56,497.79 -468.88,901.39 -969.3,901.39 -520.8,0 -971.86,-416.37 -971.86,-971.86 0,-530.01 427.73,-971.86 971.86,-971.86 564.58,0 1007.85,480.66 969.3,1042.33z"/>
+   <path class="fil1 str0" d="M239.69 1583.04c-124.41,-148.89 -204.27,-336.28 -219.06,-541.71l64.19 -91.6 201.32 295.16 62.8 359.39 -109.25 -21.23 -0 0z"/>
+   <path class="fil2 str0" d="M640.48 1866.44c-157.37,-58.32 -295.13,-156.98 -400.79,-283.4l109.25 21.23 245.96 176.73 45.57 85.44z"/>
+   <path class="fil1 str0" d="M153.11 482.47c117.41,-195.97 303.16,-346.28 524.34,-418l0 0c38.3,15.01 76.6,30.02 114.9,45.03l-255.07 323.09 -370.47 143.63 -13.69 -93.75z"/>
+   <path class="fil2 str0" d="M20.63 1041.33c-1.65,-22.94 -2.53,-46.1 -2.53,-69.47 0,-178.92 49.31,-346.31 135.02,-489.39l13.69 93.75 -81.99 373.5 -64.19 91.6z"/>
+   <path class="fil2 str0" d="M677.46 64.47c92.73,-30.07 191.65,-46.38 294.4,-46.38 102.75,0 201.67,16.31 294.4,46.38l-114.9 45.03 -179.51 0 -179.51 0 -114.9 -45.03z"/>
+   <polygon class="fil1 str0" points="971.86,1448.4 778.8,1308.13 585.74,1167.87 659.48,940.91 733.22,713.96 971.86,713.96 1210.49,713.96 1284.23,940.91 1357.98,1167.87 1164.92,1308.13 "/>
+   <polygon class="fil3 str0" points="733.22,713.96 537.28,432.6 792.35,109.51 971.86,109.51 1151.37,109.51 1406.44,432.6 1210.49,713.96 971.86,713.96 "/>
+   <polygon class="fil3 str0" points="537.28,432.6 166.81,576.23 84.82,949.73 286.14,1244.88 585.74,1167.87 733.22,713.96 "/>
+   <polygon class="fil3 str0" points="971.86,1448.4 971.86,1680.79 594.9,1781 348.94,1604.27 286.14,1244.88 585.74,1167.87 "/>
+   <path class="fil1 str0" d="M1704.03 1583.04c124.41,-148.89 204.27,-336.28 219.06,-541.71l-64.19 -91.6 -201.32 295.16 -62.8 359.39 109.25 -21.23 0 0z"/>
+   <path class="fil1 str0" d="M640.48 1866.44c103.22,38.25 214.85,59.18 331.38,59.18 116.53,0 228.16,-20.93 331.38,-59.18l45.57 -85.44 -376.96 -100.21 -376.96 100.21 45.57 85.44z"/>
+   <path class="fil2 str0" d="M1303.24 1866.44c157.37,-58.32 295.13,-156.98 400.79,-283.4l-109.25 21.23 -245.96 176.73 -45.57 85.44z"/>
+   <path class="fil1 str0" d="M1790.61 482.47c-117.41,-195.97 -303.16,-346.28 -524.34,-418l-0 0c-38.3,15.01 -76.6,30.02 -114.9,45.03l255.07 323.09 370.47 143.63 13.69 -93.75z"/>
+   <path class="fil2 str0" d="M1923.09 1041.33c1.65,-22.94 2.53,-46.1 2.53,-69.47 0,-178.92 -49.31,-346.31 -135.02,-489.39l-13.69 93.75 81.99 373.5 64.19 91.6z"/>
+   <polygon class="fil3 str0" points="1406.44,432.6 1776.91,576.23 1858.9,949.73 1657.58,1244.88 1357.98,1167.87 1210.49,713.96 "/>
+   <polygon class="fil3 str0" points="971.86,1448.4 971.86,1680.79 1348.81,1781 1594.78,1604.27 1657.58,1244.88 1357.98,1167.87 "/>
+   <text x="796.18" y="586.92"  class="fil4 fnt0">A</text>
+   <g transform="matrix(0.258819 -0.965926 0.965926 0.258819 929.778 -13469.7)">
+    <text x="-14111.77" y="3375.47"  class="fil4 fnt0">F</text>
+   </g>
+   <g transform="matrix(0.258819 0.965926 -0.965926 0.258819 8237.92 13520.9)">
+    <text x="-14111.77" y="3375.47"  class="fil4 fnt0">F</text>
+   </g>
+  </g>
+ </g>
+</svg>

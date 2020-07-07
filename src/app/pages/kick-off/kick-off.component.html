@@ -1,0 +1,11 @@
+<article class="kick-off">
+  <page-header [breadcrumb]="['Jogo rápido']"></page-header>
+  <div class="home-selector">
+    <team-selector (selectedTeam)="onSelectHome($event)" [groupByState]="true"></team-selector>
+  </div>
+  <div class="kick-off__versus"></div>
+  <div *ngIf="selectedHomeTeam !== undefined && selectedAwayTeam !== undefined" ngClass="kick-off__advance-btn">AVANÇAR</div>
+  <div class="away-selector">
+    <team-selector (selectedTeam)="onSelectAway($event)" [groupByState]="true"></team-selector>
+  </div>
+</article>

@@ -1,0 +1,25 @@
+<article class="state-championships">
+  <page-header [breadcrumb]="['Torneios', 'Estaduais']"></page-header>
+  <section class="state-championships__menu">
+    <div
+      [ngClass]="{
+        'list-scroll': true,
+        'page-2': activePage === 1,
+        'page-3': activePage === 2,
+        'page-4': activePage === 3,
+        'page-5': activePage === 4,
+        'page-6': activePage === 5
+      }">
+      <menu-card *ngFor="let option of stateChampionshipsList" [data]="option"></menu-card>
+    </div>
+  </section>
+  <span [ngClass]="{'navigation-button': true, 'previous': true, 'disabled': activePage === 0}" (click)="activePage !== 0 ? previousPage() : null">
+    <img src="../../../assets/icons/menu-left.svg">
+  </span>
+  <span [ngClass]="{'navigation-button': true, 'next': true, 'disabled': activePage === 5}" (click)="activePage !== 5 ? nextPage() : null">
+    <img src="../../../assets/icons/menu-right.svg">
+  </span>
+  <div class="carousel-indicator">
+    <div *ngFor="let item of setNumberOfPages(6); let i = index" [ngClass]="{'carousel-indicator__item': true, 'active': i === activePage}"></div>
+  </div>
+</article>

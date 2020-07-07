@@ -1,0 +1,80 @@
+.serie-d {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    opacity: 0;
+    animation: showMenu 0.5s ease-in-out forwards 0.1s;
+  
+    &__info-container {
+      margin-left: 10px;
+  
+      &__selected-team {
+        height: 290px;
+        width: 290px;
+        background-color: rgba(#FFFFFF, 0.9);
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+  
+        .team-emblem {
+          margin-bottom: 15px;
+          & > img {
+            height: 150px;
+          }
+        }
+  
+        .objective-title {
+          font-size: 24px;
+          color: #333333;
+          margin-bottom: 10px;
+        }
+  
+        .objective-value {
+          font-size: 14px;
+          font-family: 'Roboto';
+          color: #666666;
+        }
+      }
+  
+      &__advance-btn {
+        height: 60px;
+        width: 290px;
+        background-color: rgba(#FFFFFF, 0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        transition: 0.1s linear;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.03);
+          background-color: rgba(#FFF1BA, 0.9);
+        }
+        &--disabled {
+          opacity: 0.4;
+          cursor: default;
+          &:hover {
+            transform: scale(1);
+            background-color: rgba(#FFFFFF, 0.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes showMenu {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

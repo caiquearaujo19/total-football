@@ -1,0 +1,23 @@
+.carrer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  &__menu {
+    display: flex;
+    opacity: 0;
+    animation: showMenu 0.5s ease-in-out forwards 0.1s;
+  }
+}
+
+@keyframes showMenu {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

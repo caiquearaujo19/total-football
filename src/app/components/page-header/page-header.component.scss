@@ -1,0 +1,60 @@
+.page-header {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 30px;
+  color: #FFFFFF;
+  opacity: 0;
+  animation: showHeader 0.5s ease 0.8s forwards;
+
+  .home-button {
+    border-right: 1px solid #FFFFFF;
+    padding-right: 20px;
+    margin-right: 20px;
+    opacity: 0.2;
+    transition: 0.2s linear;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .breadcrumb-item {
+    opacity: 0.2;
+    transition: 0.2s linear;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+
+    &__text {
+      outline: none;
+    }
+
+    .arrow {
+      margin: 0 5px;
+    }
+
+    &:last-child {
+      opacity: 1;
+      pointer-events: none;
+      cursor: default;
+      
+      .arrow {
+        display: none;
+      }
+    }
+  }
+}
+
+@keyframes showHeader {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Acre",
+    "flag": "assets/images/states/acre.png"
+  },
+  {
+    "id": 2,
+    "name": "Alagoas",
+    "flag": "assets/images/states/alagoas.png"
+  },
+  {
+    "id": 3,
+    "name": "Amapá",
+    "flag": "assets/images/states/amapa.png"
+  },
+  {
+    "id": 4,
+    "name": "Amazonas",
+    "flag": "assets/images/states/amazonas.png"
+  },
+  {
+    "id": 5,
+    "name": "Bahia",
+    "flag": "assets/images/states/bahia.png"
+  },
+  {
+    "id": 6,
+    "name": "Ceará",
+    "flag": "assets/images/states/ceara.png"
+  },
+  {
+    "id": 7,
+    "name": "DF/Brasília",
+    "flag": "assets/images/states/df-brasilia.png"
+  },
+  {
+    "id": 8,
+    "name": "Espírito Santo",
+    "flag": "assets/images/states/espirito-santo.png"
+  },
+  {
+    "id": 9,
+    "name": "Goiás",
+    "flag": "assets/images/states/goias.png"
+  },
+  {
+    "id": 10,
+    "name": "Maranhão",
+    "flag": "assets/images/states/maranhao.png"
+  },
+  {
+    "id": 11,
+    "name": "Mato Grosso",
+    "flag": "assets/images/states/mato-grosso.png"
+  },
+  {
+    "id": 12,
+    "name": "Mato Grosso do Sul",
+    "flag": "assets/images/states/mato-grosso-do-sul.png"
+  },
+  {
+    "id": 13,
+    "name": "Minas Gerais",
+    "flag": "assets/images/states/minas-gerais.png"
+  },
+  {
+    "id": 14,
+    "name": "Pará",
+    "flag": "assets/images/states/para.png"
+  },
+  {
+    "id": 15,
+    "name": "Paraíba",
+    "flag": "assets/images/states/paraiba.png"
+  },
+  {
+    "id": 16,
+    "name": "Paraná",
+    "flag": "assets/images/states/parana.png"
+  },
+  {
+    "id": 17,
+    "name": "Pernambuco",
+    "flag": "assets/images/states/pernambuco.png"
+  },
+  {
+    "id": 18,
+    "name": "Piauí",
+    "flag": "assets/images/states/piaui.png"
+  },
+  {
+    "id": 19,
+    "name": "Rio de Janeiro",
+    "flag": "assets/images/states/rio-de-janeiro.png"
+  },
+  {
+    "id": 20,
+    "name": "Rio Grande do Norte",
+    "flag": "assets/images/states/rio-grande-do-norte.png"
+  },
+  {
+    "id": 21,
+    "name": "Rio Grande do Sul",
+    "flag": "assets/images/states/rio-grande-do-sul.png"
+  },
+  {
+    "id": 22,
+    "name": "Rondônia",
+    "flag": "assets/images/states/rondonia.png"
+  },
+  {
+    "id": 23,
+    "name": "Roraima",
+    "flag": "assets/images/states/roraima.png"
+  },
+  {
+    "id": 24,
+    "name": "Santa Catarina",
+    "flag": "assets/images/states/santa-catarina.png"
+  },
+  {
+    "id": 25,
+    "name": "São Paulo",
+    "flag": "assets/images/states/sao-paulo.png"
+  },
+  {
+    "id": 26,
+    "name": "Sergipe",
+    "flag": "assets/images/states/sergipe.png"
+  },
+  {
+    "id": 27,
+    "name": "Tocantins",
+    "flag": "assets/images/states/tocantins.png"
+  }
+]

@@ -1,0 +1,86 @@
+.state-championships {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  &__menu {
+    height: 400px;
+    width: 1050px;
+    padding: 20px 0;
+    overflow-x: hidden;
+    opacity: 0;
+    margin: 40px 0;
+    animation: showMenu 0.5s ease-in-out forwards 0.1s;
+
+    .list-scroll {
+      display: flex;
+      transition: 0.5s ease-in-out;
+      &.page-2 { transform: translateX(-1050px) }
+      &.page-3 { transform: translateX(-2100px) }
+      &.page-4 { transform: translateX(-3150px) }
+      &.page-5 { transform: translateX(-4200px) }
+      &.page-6 { transform: translateX(-5250px) }
+    }
+  }
+
+  .navigation-button {
+    position: absolute;
+    top: calc(50vh - 25px);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(#FFFFFF, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s linear;
+    cursor: pointer;
+    &.previous {
+      left: 60px;
+    }
+    &.next {
+      right: 60px;
+    }
+    &.disabled {
+      opacity: 0.2;
+      cursor: initial;
+    }
+    &:hover {
+      background-color: rgba(#FFFFFF, 0.6);
+      transform: scale(1.1);
+    }
+
+    & > img {
+      height: 42px;
+    }
+  }
+
+  .carousel-indicator {
+    display: flex;
+  
+    &__item {
+      height: 3px;
+      width: 25px;
+      background-color: rgba(#FFFFFF, $alpha: 0.4);
+      margin-right: 10px;
+      transition: 0.1s linear;
+  
+      &.active {
+        background-color: #FFFFFF;
+      }
+    }
+  }
+}
+
+@keyframes showMenu {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

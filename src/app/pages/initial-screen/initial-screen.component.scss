@@ -1,0 +1,36 @@
+.initial-screen {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    .logo {
+      height: 100px;
+      opacity: 0;
+      animation: showLogo 0.2s linear 2s forwards;
+      margin-bottom: 30px;
+    }
+
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      animation: showLoading 0.2s linear 3s forwards;
+    }
+  }
+}
+
+@keyframes showLogo {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes showLoading { 0% { opacity: 0 } 100% { opacity: 1 } }

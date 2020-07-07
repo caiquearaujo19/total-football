@@ -1,0 +1,32 @@
+<section *ngIf="teams !== undefined" [ngClass]="{'team-selector': !expanded, 'team-selector--expanded': expanded}">
+  <div *ngIf="groupByState" class="team-selector__state-selector" [ngStyle]="{'background-image': 'url(' + states[activeState].flag + ')'}">
+    <span [ngClass]="{'navigation-button': true, 'previous': true}" (click)="previousState()">
+      <img src="../../../assets/icons/menu-left.svg">
+    </span>
+    <span [ngClass]="{'navigation-button': true, 'next': true}" (click)="nextState()">
+      <img src="../../../assets/icons/menu-right.svg">
+    </span>
+    {{states[activeState].name}}
+  </div>
+  <div class="team-selector__team-list">
+    <div
+      *ngFor="let team of teams; let i = index"
+      [ngClass]="{'team-selector__team-list__item': true, 'team-selector__team-list__item--active': i === openTeam}"
+      [ngStyle]="{'background-color': i%2==0 ? 'rgba(0, 0, 0, 0.03)' : 'transparent'}"
+      (click)="selectTeam(i)">
+      <div class="team-emblem">
+        <img src="{{team.emblem}}">
+      </div>
+      <div class="team-info">
+        <div class="team-info__name">{{team.name}}</div>
+        <div class="team-info__level">
+          <level-stars [level]="team.level"></level-stars>
+        </div>
+        <div class="team-info__current-phase">
+          <div class="team-info__current-phase__title">Fase atual:</div>
+          <team-phase [align]="expanded && i !== openTeam ? true : false" [phase]="team.currentPhase"></team-phase>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

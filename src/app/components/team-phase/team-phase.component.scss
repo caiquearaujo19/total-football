@@ -1,0 +1,30 @@
+.team-phase {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  &--great {
+    color: #6699FF;
+  }
+  &--good {
+    color: #009933;
+  }
+  &--regular {
+    color: #9A7B00;
+  }
+  &--bad {
+    color: #FF6600
+  }
+  &--terrible {
+    color: #FF0000;
+  }
+
+  & > img {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+
+  &--align {
+    width: 71px;
+    justify-content: space-between;
+  }
+}

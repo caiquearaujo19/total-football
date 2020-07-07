@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./assets/images/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: animateBg 40s linear infinite;
+  font-family: 'Bebas Neue';
+  user-select: none;
+}
+
+@keyframes animateBg {
+  0%, 100% { background-size: 100%}
+  50% { background-size: 200%}
+}

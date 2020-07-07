@@ -1,0 +1,6 @@
+<article class="tournaments">
+  <page-header [breadcrumb]="['Torneios']"></page-header>
+  <section class="tournaments__menu">
+    <menu-card *ngFor="let option of tournamentsOptions" [data]="option"></menu-card>
+  </section>
+</article>

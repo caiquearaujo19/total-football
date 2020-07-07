@@ -1,0 +1,225 @@
+{
+  "initialMenu": [
+    {
+      "title": "Jogo rápido",
+      "action": "/kick-off",
+      "background": ""
+    },
+    {
+      "title": "Carreira",
+      "action": "/carrer",
+      "background": ""
+    },
+    {
+      "title": "Torneios",
+      "action": "/tournaments",
+      "background": ""
+    }
+  ],
+  "carrer": [
+    {
+      "title": "Nova carreira",
+      "action": "",
+      "background": ""
+    },
+    {
+      "title": "Carregar carreira",
+      "action": "",
+      "background": ""
+    }
+  ],
+  "tournaments": [
+    {
+      "title": "Estaduais",
+      "action": "/tournaments/state-championships",
+      "background": ""
+    },
+    {
+      "title": "Brasileirão",
+      "action": "/tournaments/brasileirao",
+      "background": ""
+    },
+    {
+      "title": "Copa do Brasil",
+      "action": "",
+      "background": ""
+    }
+  ],
+  "stateChampionships": [
+    {
+      "title": "Campeonato Acreano",
+      "action": "",
+      "background": "assets/images/states/acre-tr.png"
+    },
+    {
+      "title": "Campeonato Alagoano",
+      "action": "",
+      "background": "assets/images/states/alagoas-tr.png"
+    },
+    {
+      "title": "Campeonato Amapaense",
+      "action": "",
+      "background": "assets/images/states/amapa-tr.png",
+      "image": "assets/images/states/amapa-f.svg"
+    },
+    {
+      "title": "Campeonato Amazonense",
+      "action": "",
+      "background": "assets/images/states/amazonas-tr.png"
+    },
+    {
+      "title": "Campeonato Baiano",
+      "action": "",
+      "background": "assets/images/states/bahia-tr.png",
+      "image": "assets/images/states/bahia-f.svg"
+    },
+    {
+      "title": "Campeonato Brasiliense",
+      "action": "",
+      "background": "assets/images/states/df-brasilia-tr.png",
+      "image": "assets/images/states/df-brasilia-f.svg"
+    },
+    {
+      "title": "Campeonato Capixaba",
+      "action": "",
+      "background": "assets/images/states/espirito-santo-tr.png",
+      "image": "assets/images/states/espirito-santo-f.svg"
+    },
+    {
+      "title": "Campeonato Carioca",
+      "action": "",
+      "background": "assets/images/states/rio-de-janeiro-tr.png",
+      "image": "assets/images/states/rio-de-janeiro-f.svg"
+    },
+    {
+      "title": "Campeonato Catarinense",
+      "action": "",
+      "background": "assets/images/states/santa-catarina-tr.png",
+      "image": "assets/images/states/santa-catarina-f.svg"
+    },
+    {
+      "title": "Campeonato Cearense",
+      "action": "",
+      "background": "assets/images/states/ceara-tr.png"
+    },
+    {
+      "title": "Campeonato Gaúcho",
+      "action": "",
+      "background": "assets/images/states/rio-grande-do-sul-tr.png",
+      "image": "assets/images/states/rio-grande-do-sul-f.svg"
+    },
+    {
+      "title": "Campeonato Goiano",
+      "action": "",
+      "background": "assets/images/states/goias-tr.png",
+      "image": "assets/images/states/goias-f.svg"
+    },
+    {
+      "title": "Campeonato Maranhense",
+      "action": "",
+      "background": "assets/images/states/maranhao-tr.png"
+    },
+    {
+      "title": "Campeonato Mato-grossense",
+      "action": "",
+      "background": "assets/images/states/mato-grosso-tr.png",
+      "image": "assets/images/states/mato-grosso-f.svg"
+    },
+    {
+      "title": "Campeonato Mineiro",
+      "action": "",
+      "background": "assets/images/states/minas-gerais-tr.png",
+      "image": "assets/images/states/minas-gerais-f.svg"
+    },
+    {
+      "title": "Campeonato Paraense",
+      "action": "",
+      "background": "assets/images/states/para-tr.png",
+      "image": "assets/images/states/para-f.svg"
+    },
+    {
+      "title": "Campeonato Paraibano",
+      "action": "",
+      "background": "assets/images/states/paraiba-tr.png",
+      "image": "assets/images/states/paraiba-f.svg"
+    },
+    {
+      "title": "Campeonato Paranaense",
+      "action": "",
+      "background": "assets/images/states/parana-tr.png"
+    },
+    {
+      "title": "Campeonato Paulista",
+      "action": "",
+      "background": "assets/images/states/sao-paulo-tr.png",
+      "image": "assets/images/states/sao-paulo-f.svg"
+    },
+    {
+      "title": "Campeonato Pernambucano",
+      "action": "",
+      "background": "assets/images/states/pernambuco-tr.png"
+    },
+    {
+      "title": "Campeonato Piauiense",
+      "action": "",
+      "background": "assets/images/states/piaui-tr.png"
+    },
+    {
+      "title": "Campeonato Potiguar",
+      "action": "",
+      "background": "assets/images/states/rio-grande-do-norte-tr.png"
+    },
+    {
+      "title": "Campeonato Rondoniense",
+      "action": "",
+      "background": "assets/images/states/rondonia-tr.png"
+    },
+    {
+      "title": "Campeonato Roraimense",
+      "action": "",
+      "background": "assets/images/states/roraima-tr.png"
+    },
+    {
+      "title": "Campeonato Sergipano",
+      "action": "",
+      "background": "assets/images/states/sergipe-tr.png"
+    },
+    {
+      "title": "Campeonato Sul-Mato-grossense",
+      "action": "",
+      "background": "assets/images/states/mato-grosso-do-sul-tr.png"
+    },
+    {
+      "title": "Tocantinense",
+      "action": "",
+      "background": "assets/images/states/tocantins-tr.png",
+      "image": "assets/images/states/tocantins-f.svg"
+    }
+  ],
+  "brasileirao": [
+    {
+      "title": "Brasileirão Série A",
+      "action": "/tournaments/brasileirao/serie-a",
+      "background": "",
+      "image": "assets/images/brasileirao/serie-a.svg"
+    },
+    {
+      "title": "Brasileirão Série B",
+      "action": "/tournaments/brasileirao/serie-b",
+      "background": "",
+      "image": "assets/images/brasileirao/serie-b.svg"
+    },
+    {
+      "title": "Brasileirão Série C",
+      "action": "/tournaments/brasileirao/serie-c",
+      "background": "",
+      "image": "assets/images/brasileirao/serie-c.svg"
+    },
+    {
+      "title": "Brasileirão Série D",
+      "action": "/tournaments/brasileirao/serie-d",
+      "background": "",
+      "image": "assets/images/brasileirao/serie-d.svg"
+    }
+  ]
+}

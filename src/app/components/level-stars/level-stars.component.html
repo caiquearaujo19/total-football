@@ -1,0 +1,11 @@
+<div class="level-stars">
+  <span *ngIf="level >= 1">
+    <img *ngFor="let item of qtdStars(filledStars)" src="../../../assets/icons/filled-star.svg">
+  </span>
+  <span *ngIf="!isInteger(level)">
+    <img src="../../../assets/icons/half-star.svg">
+  </span>
+  <span *ngIf="5 > level">
+    <img *ngFor="let item of qtdStars(emptyStars)" src="../../../assets/icons/empty-star.svg">
+  </span>
+</div>

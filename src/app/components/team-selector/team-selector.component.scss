@@ -1,0 +1,218 @@
+.team-selector {
+  width: 380px;
+
+  &__state-selector {
+    height: 60px;
+    background-color: rgba(#FFFFFF, 0.9);
+    color: #4D4D4D;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    animation: moveStateFlag 20s ease-in-out infinite;
+    &:hover {
+      .navigation-button {
+        opacity: 1;
+      }
+    }
+
+    .navigation-button {
+      position: absolute;
+      height: 60px;
+      width: 20px;
+      background-color: rgba(#FFFFFF, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.1s linear;
+      opacity: 0;
+      cursor: pointer;
+      &.previous {
+        left: - 20px;
+      }
+      &.next {
+        right: - 20px;
+      }
+      &:hover {
+        background-color: rgba(#FFFFFF, 0.6);
+      }
+  
+      & > img {
+        height: 32px;
+      }
+    }
+  }
+
+  &__team-list {
+    height: 350px;
+    background-color: rgba(#FFFFFF, 0.9);
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent; 
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #AAA;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      padding: 5px 20px;
+      transition: 0.1s ease-in-out;
+      &:hover {
+        background-color: rgba(#D9DAA6, 0.5) !important;
+      }
+
+      .team-emblem {
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        text-align: center;
+        transition: 0.1s ease-in-out;
+
+        & > img {
+          max-height: 100%;
+          max-width: 100%;
+        }
+      }
+
+      .team-info {
+        &__name {
+          color: #4D4D4D;
+        }
+
+        &__level {
+          display: none;
+        }
+
+        &__current-phase {
+          display: none;
+
+          &__title {
+            color: #4D4D4D;
+            font-family: 'Roboto';
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 2px;
+          }
+        }
+      }
+
+      &--active {
+        height: 150px;
+        align-items: flex-start;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #D9DAA6 !important;
+        &:hover {
+          background-color: #D9DAA6 !important;
+        }
+
+        .team-emblem {
+          width: 110px;
+          height: 110px;
+          margin-right: 30px;
+          display: flex;
+          align-items: center;
+        }
+
+        .team-info {
+          &__name {
+            font-size: 26px;
+            margin-bottom: 10px;
+          }
+          
+          &__level {
+            display: block;
+            margin-bottom: 10px;
+          }
+
+          &__current-phase {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.team-selector--expanded {
+  width: 680px;
+
+  .team-selector__team-list {
+    height: 360px;
+    
+    &__item {
+      .team-info {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__name {
+          width: 240px;
+        }
+
+        &__level {
+          display: block;
+          width: 200px;
+        }
+
+        &__current-phase {
+          flex-grow: 1;
+          display: flex;
+
+          &__title {
+            color: #8F8F8F;
+            margin-top: 4px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      &--active {
+        height: 100px;
+        align-items: center;
+
+        .team-emblem {
+          width: 60px;
+          height: 60px;
+          margin-right: 20px;
+        }
+
+        .team-info {
+          &__name {
+            width: 205px;
+            margin-bottom: 0;
+          }
+
+          &__level {
+            width: 200px;
+            margin-bottom: 0;
+          }
+
+          &__current-phase {
+            &__title {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes moveStateFlag {
+  0%, 100% { background-position: 155px 0px   }
+  50%      { background-position: 180px -66px }
+}

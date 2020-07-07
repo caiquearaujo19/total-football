@@ -1,0 +1,6 @@
+<article class="brasileirao">
+  <page-header [breadcrumb]="['Torneios', 'Brasileirão']"></page-header>
+  <section class="brasileirao__menu">
+    <menu-card *ngFor="let option of brasileiraoOptions" [data]="option"></menu-card>
+  </section>
+</article>

@@ -1,0 +1,1385 @@
+[
+  {
+    "id": 1,
+    "stateId": 19,
+    "name": "América-RJ",
+    "emblem": "assets/images/teams/america-rj.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 2,
+    "stateId": 19,
+    "name": "Americano",
+    "emblem": "assets/images/teams/americano.svg",
+    "level": 2.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 3,
+    "stateId": 19,
+    "serie": "D",
+    "name": "Bangu",
+    "emblem": "assets/images/teams/bangu.svg",
+    "level": 1.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 4,
+    "stateId": 19,
+    "name": "Boavista",
+    "emblem": "assets/images/teams/boavista.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 5,
+    "stateId": 19,
+    "serie": "A",
+    "name": "Botafogo",
+    "emblem": "assets/images/teams/botafogo.svg",
+    "level": 4,
+    "currentPhase": "good"
+  },
+  {
+    "id": 6,
+    "stateId": 19,
+    "serie": "D",
+    "name": "Cabofriense",
+    "emblem": "assets/images/teams/cabofriense.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 7,
+    "stateId": 19,
+    "serie": "A",
+    "name": "Flamengo",
+    "emblem": "assets/images/teams/flamengo.svg",
+    "level": 4.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 8,
+    "stateId": 19,
+    "serie": "A",
+    "name": "Fluminense",
+    "emblem": "assets/images/teams/fluminense.svg",
+    "level": 4,
+    "currentPhase": "great"
+  },
+  {
+    "id": 9,
+    "stateId": 19,
+    "name": "Friburguense",
+    "emblem": "assets/images/teams/friburguense.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 10,
+    "stateId": 19,
+    "name": "Macaé",
+    "emblem": "assets/images/teams/macae.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 11,
+    "stateId": 19,
+    "name": "Madureira",
+    "emblem": "assets/images/teams/madureira.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 12,
+    "stateId": 19,
+    "name": "Nova Iguaçu",
+    "emblem": "assets/images/teams/nova-iguacu.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 13,
+    "stateId": 19,
+    "serie": "D",
+    "name": "Portuguesa-RJ",
+    "emblem": "assets/images/teams/portuguesa-rj.svg",
+    "level": 1.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 14,
+    "stateId": 19,
+    "name": "Resende",
+    "emblem": "assets/images/teams/resende.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 15,
+    "stateId": 19,
+    "serie": "A",
+    "name": "Vasco",
+    "emblem": "assets/images/teams/vasco.svg",
+    "level": 3.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 16,
+    "stateId": 19,
+    "serie": "C",
+    "name": "Volta Redonda",
+    "emblem": "assets/images/teams/volta-redonda.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 17,
+    "stateId": 25,
+    "name": "Água Santa",
+    "emblem": "assets/images/teams/agua-santa.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 18,
+    "stateId": 25,
+    "serie": "B",
+    "name": "Botafogo-SP",
+    "emblem": "assets/images/teams/botafogo-sp.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 19,
+    "stateId": 25,
+    "serie": "A",
+    "name": "Corinthians",
+    "emblem": "assets/images/teams/corinthians.svg",
+    "level": 4,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 20,
+    "stateId": 25,
+    "serie": "D",
+    "name": "Ferroviária",
+    "emblem": "assets/images/teams/ferroviaria.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 21,
+    "stateId": 25,
+    "serie": "B",
+    "name": "Guaraní",
+    "emblem": "assets/images/teams/guarani.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 22,
+    "stateId": 25,
+    "name": "Inter de Limeira",
+    "emblem": "assets/images/teams/inter-de-limeira.svg",
+    "level": 3.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 23,
+    "stateId": 25,
+    "serie": "C",
+    "name": "Ituano",
+    "emblem": "assets/images/teams/ituano.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 24,
+    "stateId": 25,
+    "serie": "D",
+    "name": "Mirassol",
+    "emblem": "assets/images/teams/mirassol.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 25,
+    "stateId": 25,
+    "serie": "D",
+    "name": "Novo Horizontino",
+    "emblem": "assets/images/teams/novo-horizontino.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 26,
+    "stateId": 25,
+    "serie": "B",
+    "name": "Oeste",
+    "emblem": "assets/images/teams/oeste.svg",
+    "level": 2.6,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 27,
+    "stateId": 25,
+    "serie": "A",
+    "name": "Palmeiras",
+    "emblem": "assets/images/teams/palmeiras.svg",
+    "level": 4.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 28,
+    "stateId": 25,
+    "serie": "B",
+    "name": "Ponte Preta",
+    "emblem": "assets/images/teams/ponte-preta.svg",
+    "level": 3.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 29,
+    "stateId": 25,
+    "serie": "A",
+    "name": "RB Bragantino",
+    "emblem": "assets/images/teams/rb-bragantino.svg",
+    "level": 3,
+    "currentPhase": "great"
+  },
+  {
+    "id": 30,
+    "stateId": 25,
+    "name": "Santo André",
+    "emblem": "assets/images/teams/santo-andre.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 31,
+    "stateId": 25,
+    "serie": "A",
+    "name": "Santos",
+    "emblem": "assets/images/teams/santos.svg",
+    "level": 4,
+    "currentPhase": "good"
+  },
+  {
+    "id": 32,
+    "stateId": 25,
+    "serie": "A",
+    "name": "São Paulo",
+    "emblem": "assets/images/teams/sao-paulo.svg",
+    "level": 4,
+    "currentPhase": "good"
+  },
+  {
+    "id": 33,
+    "stateId": 1,
+    "name": "Andirá",
+    "emblem": "assets/images/teams/andira.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 34,
+    "stateId": 1,
+    "serie": "D",
+    "name": "Atlético Acreano",
+    "emblem": "assets/images/teams/atletico-ac.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 35,
+    "stateId": 1,
+    "serie": "D",
+    "name": "Galvez",
+    "emblem": "assets/images/teams/galvez.svg",
+    "level": 2.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 36,
+    "stateId": 1,
+    "name": "Humaitá",
+    "emblem": "assets/images/teams/humaita.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 37,
+    "stateId": 1,
+    "name": "Independência",
+    "emblem": "assets/images/teams/independencia.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 38,
+    "stateId": 1,
+    "name": "Náuas",
+    "emblem": "assets/images/teams/nauas.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 39,
+    "stateId": 1,
+    "name": "Plácido de Castro",
+    "emblem": "assets/images/teams/placido-de-castro.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 40,
+    "stateId": 1,
+    "serie": "D",
+    "name": "Rio Branco",
+    "emblem": "assets/images/teams/rio-branco.svg",
+    "level": 1.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 41,
+    "stateId": 1,
+    "name": "São Francisco",
+    "emblem": "assets/images/teams/sao-francisco-ac.svg",
+    "level": 2.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 42,
+    "stateId": 1,
+    "name": "Vasco-AC",
+    "emblem": "assets/images/teams/vasco-ac.svg",
+    "level": 3,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 43,
+    "stateId": 16,
+    "serie": "A",
+    "name": "Athletico-PR",
+    "emblem": "assets/images/teams/athletico-pr.svg",
+    "level": 4,
+    "currentPhase": "good"
+  },
+  {
+    "id": 44,
+    "stateId": 9,
+    "serie": "A",
+    "name": "Atlético-GO",
+    "emblem": "assets/images/teams/atletico-go.svg",
+    "level": 3,
+    "currentPhase": "great"
+  },
+  {
+    "id": 45,
+    "stateId": 13,
+    "serie": "A",
+    "name": "Atlético-MG",
+    "emblem": "assets/images/teams/atletico-mg.svg",
+    "level": 4,
+    "currentPhase": "good"
+  },
+  {
+    "id": 46,
+    "stateId": 5,
+    "serie": "A",
+    "name": "Bahia",
+    "emblem": "assets/images/teams/bahia.svg",
+    "level": 3.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 47,
+    "stateId": 6,
+    "serie": "A",
+    "name": "Ceará",
+    "emblem": "assets/images/teams/ceara.svg",
+    "level": 3.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 48,
+    "stateId": 16,
+    "serie": "A",
+    "name": "Coritiba",
+    "emblem": "assets/images/teams/coritiba.svg",
+    "level": 3.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 49,
+    "stateId": 6,
+    "serie": "A",
+    "name": "Fortaleza",
+    "emblem": "assets/images/teams/fortaleza.svg",
+    "level": 3,
+    "currentPhase": "great"
+  },
+  {
+    "id": 50,
+    "stateId": 9,
+    "serie": "A",
+    "name": "Goiás",
+    "emblem": "assets/images/teams/goias.svg",
+    "level": 3.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 51,
+    "stateId": 21,
+    "serie": "A",
+    "name": "Grêmio",
+    "emblem": "assets/images/teams/gremio.svg",
+    "level": 4.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 52,
+    "stateId": 21,
+    "serie": "A",
+    "name": "Internacional",
+    "emblem": "assets/images/teams/internacional.svg",
+    "level": 4,
+    "currentPhase": "good"
+  },
+  {
+    "id": 53,
+    "stateId": 17,
+    "serie": "A",
+    "name": "Sport",
+    "emblem": "assets/images/teams/sport.svg",
+    "level": 3,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 54,
+    "stateId": 13,
+    "serie": "B",
+    "name": "América-MG",
+    "emblem": "assets/images/teams/america-mg.svg",
+    "level": 3,
+    "currentPhase": "good"
+  },
+  {
+    "id": 55,
+    "stateId": 24,
+    "serie": "B",
+    "name": "Avaí",
+    "emblem": "assets/images/teams/avai.svg",
+    "level": 3,
+    "currentPhase": "good"
+  },
+  {
+    "id": 56,
+    "stateId": 21,
+    "serie": "B",
+    "name": "Brasil de Pelotas",
+    "emblem": "assets/images/teams/brasil-de-pelotas.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 57,
+    "stateId": 24,
+    "serie": "B",
+    "name": "Chapecoense",
+    "emblem": "assets/images/teams/chapecoense.svg",
+    "level": 3.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 58,
+    "stateId": 26,
+    "serie": "B",
+    "name": "Confiança",
+    "emblem": "assets/images/teams/confianca.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 59,
+    "stateId": 2,
+    "serie": "B",
+    "name": "CRB",
+    "emblem": "assets/images/teams/crb.svg",
+    "level": 3,
+    "currentPhase": "good"
+  },
+  {
+    "id": 60,
+    "stateId": 13,
+    "serie": "B",
+    "name": "Cruzeiro",
+    "emblem": "assets/images/teams/cruzeiro.svg",
+    "level": 4,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 61,
+    "stateId": 2,
+    "serie": "B",
+    "name": "CSA",
+    "emblem": "assets/images/teams/csa.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 62,
+    "stateId": 11,
+    "serie": "B",
+    "name": "Cuiabá",
+    "emblem": "assets/images/teams/cuiaba.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 63,
+    "stateId": 24,
+    "serie": "B",
+    "name": "Figueirense",
+    "emblem": "assets/images/teams/figueirense.svg",
+    "level": 3,
+    "currentPhase": "good"
+  },
+  {
+    "id": 64,
+    "stateId": 21,
+    "serie": "B",
+    "name": "Juventude",
+    "emblem": "assets/images/teams/juventude.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 65,
+    "stateId": 17,
+    "serie": "B",
+    "name": "Náutico",
+    "emblem": "assets/images/teams/nautico.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 66,
+    "stateId": 16,
+    "serie": "B",
+    "name": "Operário-PR",
+    "emblem": "assets/images/teams/operario-pr.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 67,
+    "stateId": 16,
+    "serie": "B",
+    "name": "Paraná",
+    "emblem": "assets/images/teams/parana.svg",
+    "level": 3,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 68,
+    "stateId": 10,
+    "serie": "B",
+    "name": "Sampaio Corrêa",
+    "emblem": "assets/images/teams/sampaio-correa.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 69,
+    "stateId": 5,
+    "serie": "B",
+    "name": "Vitória",
+    "emblem": "assets/images/teams/vitoria.svg",
+    "level": 3,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 70,
+    "stateId": 13,
+    "serie": "C",
+    "name": "Boa Esporte",
+    "emblem": "assets/images/teams/boa-esporte.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 71,
+    "stateId": 15,
+    "serie": "C",
+    "name": "Botafogo-PB",
+    "emblem": "assets/images/teams/botafogo-pb.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 72,
+    "stateId": 24,
+    "serie": "C",
+    "name": "Brusque",
+    "emblem": "assets/images/teams/brusque.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 73,
+    "stateId": 24,
+    "serie": "C",
+    "name": "Criciúma",
+    "emblem": "assets/images/teams/criciuma.svg",
+    "level": 3,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 74,
+    "stateId": 6,
+    "serie": "C",
+    "name": "Ferroviário",
+    "emblem": "assets/images/teams/ferroviario.svg",
+    "level": 2.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 75,
+    "stateId": 10,
+    "serie": "C",
+    "name": "Imperatriz",
+    "emblem": "assets/images/teams/imperatriz.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 76,
+    "stateId": 5,
+    "serie": "C",
+    "name": "Jacuipense",
+    "emblem": "assets/images/teams/jacuipense.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 77,
+    "stateId": 16,
+    "serie": "C",
+    "name": "Londrina",
+    "emblem": "assets/images/teams/londrina.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 78,
+    "stateId": 4,
+    "serie": "C",
+    "name": "Manaus",
+    "emblem": "assets/images/teams/manaus.svg",
+    "level": 1.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 79,
+    "stateId": 14,
+    "serie": "C",
+    "name": "Paysandu",
+    "emblem": "assets/images/teams/paysandu.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 80,
+    "stateId": 14,
+    "serie": "C",
+    "name": "Remo",
+    "emblem": "assets/images/teams/remo.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 81,
+    "stateId": 17,
+    "serie": "C",
+    "name": "Santa Cruz",
+    "emblem": "assets/images/teams/santa-cruz.svg",
+    "level": 3,
+    "currentPhase": "good"
+  },
+  {
+    "id": 82,
+    "stateId": 25,
+    "serie": "C",
+    "name": "São Bento",
+    "emblem": "assets/images/teams/sao-bento.svg",
+    "level": 2.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 83,
+    "stateId": 21,
+    "serie": "C",
+    "name": "São José",
+    "emblem": "assets/images/teams/sao-jose.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 84,
+    "stateId": 13,
+    "serie": "C",
+    "name": "Tombense",
+    "emblem": "assets/images/teams/tombense.svg",
+    "level": 1.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 85,
+    "stateId": 15,
+    "serie": "C",
+    "name": "Treze",
+    "emblem": "assets/images/teams/treze.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 86,
+    "stateId": 9,
+    "serie": "C",
+    "name": "Vila Nova",
+    "emblem": "assets/images/teams/vila-nova.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 87,
+    "stateId": 21,
+    "serie": "C",
+    "name": "Ypiranga",
+    "emblem": "assets/images/teams/ypiranga.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 88,
+    "stateId": 20,
+    "serie": "D",
+    "name": "ABC",
+    "emblem": "assets/images/teams/abc.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 89,
+    "stateId": 17,
+    "serie": "D",
+    "name": "Afogados",
+    "emblem": "assets/images/teams/afogados.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 90,
+    "stateId": 12,
+    "serie": "D",
+    "name": "Águia Negra",
+    "emblem": "assets/images/teams/aguia-negra.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 91,
+    "stateId": 18,
+    "serie": "D",
+    "name": "Altos",
+    "emblem": "assets/images/teams/altos.svg",
+    "level": 1.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 92,
+    "stateId": 20,
+    "serie": "D",
+    "name": "América-RN",
+    "emblem": "assets/images/teams/america-rn.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 93,
+    "stateId": 5,
+    "serie": "D",
+    "name": "Atlético Alagoinhas",
+    "emblem": "assets/images/teams/atletico-alagoinhas.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 94,
+    "stateId": 15,
+    "serie": "D",
+    "name": "Atlético Cajazeirense",
+    "emblem": "assets/images/teams/atletico-cajazeirense.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 95,
+    "stateId": 5,
+    "serie": "D",
+    "name": "Bahia de Feira",
+    "emblem": "assets/images/teams/bahia-de-feira.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 96,
+    "stateId": 14,
+    "serie": "D",
+    "name": "Bragantino-PA",
+    "emblem": "assets/images/teams/bragantino-pa.svg",
+    "level": 3,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 97,
+    "stateId": 24,
+    "serie": "D",
+    "name": "Tubarão",
+    "emblem": "assets/images/teams/tubarao.svg",
+    "level": 2.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 98,
+    "stateId": 13,
+    "serie": "D",
+    "name": "Caldense",
+    "emblem": "assets/images/teams/caldense.svg",
+    "level": 1.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 99,
+    "stateId": 15,
+    "serie": "D",
+    "name": "Campinense",
+    "emblem": "assets/images/teams/campinense.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 100,
+    "stateId": 16,
+    "serie": "D",
+    "name": "FC Cascavel",
+    "emblem": "assets/images/teams/fc-cascavel.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 101,
+    "stateId": 21,
+    "serie": "D",
+    "name": "Caxias do Sul",
+    "emblem": "assets/images/teams/caxias-do-sul.svg",
+    "level": 2,
+    "currentPhase": "great"
+  },
+  {
+    "id": 102,
+    "stateId": 17,
+    "serie": "D",
+    "name": "Central",
+    "emblem": "assets/images/teams/central.svg",
+    "level": 1,
+    "currentPhase": "good"
+  },
+  {
+    "id": 103,
+    "stateId": 2,
+    "serie": "D",
+    "name": "Coruripe",
+    "emblem": "assets/images/teams/coruripe.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 104,
+    "stateId": 9,
+    "serie": "D",
+    "name": "CRAC",
+    "emblem": "assets/images/teams/crac.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 105,
+    "stateId": 4,
+    "serie": "D",
+    "name": "Fast Clube",
+    "emblem": "assets/images/teams/fast-clube.svg",
+    "level": 1.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 106,
+    "stateId": 6,
+    "serie": "D",
+    "name": "Floresta",
+    "emblem": "assets/images/teams/floresta.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 107,
+    "stateId": 26,
+    "serie": "D",
+    "name": "Freipaulistano",
+    "emblem": "assets/images/teams/freipaulistano.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 108,
+    "stateId": 7,
+    "serie": "D",
+    "name": "Gama",
+    "emblem": "assets/images/teams/gama.svg",
+    "level": 2,
+    "currentPhase": "great"
+  },
+  {
+    "id": 109,
+    "stateId": 20,
+    "serie": "D",
+    "name": "Globo",
+    "emblem": "assets/images/teams/globo.svg",
+    "level": 1.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 110,
+    "stateId": 9,
+    "serie": "D",
+    "name": "Goianéisa",
+    "emblem": "assets/images/teams/goianesia.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 111,
+    "stateId": 9,
+    "serie": "D",
+    "name": "Goiânia",
+    "emblem": "assets/images/teams/goiania.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 112,
+    "stateId": 6,
+    "serie": "D",
+    "name": "Guanary de Sobral",
+    "emblem": "assets/images/teams/guarany-de-sobral.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 113,
+    "stateId": 14,
+    "serie": "D",
+    "name": "Independiente-PA",
+    "emblem": "assets/images/teams/independiente-pa.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 114,
+    "stateId": 26,
+    "serie": "D",
+    "name": "Itabaiana",
+    "emblem": "assets/images/teams/itabaiana.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 115,
+    "stateId": 2,
+    "serie": "D",
+    "name": "Jacyobá",
+    "emblem": "assets/images/teams/jacyoba.svg",
+    "level": 3,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 116,
+    "stateId": 24,
+    "serie": "D",
+    "name": "Joinville",
+    "emblem": "assets/images/teams/joinville.svg",
+    "level": 1.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 117,
+    "stateId": 10,
+    "serie": "D",
+    "name": "Juventude Samas",
+    "emblem": "assets/images/teams/juventude-samas.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 118,
+    "stateId": 11,
+    "serie": "D",
+    "name": "Luverdense",
+    "emblem": "assets/images/teams/luverdense.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 119,
+    "stateId": 24,
+    "serie": "D",
+    "name": "Marcílio Dias",
+    "emblem": "assets/images/teams/marcilio-dias.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 120,
+    "stateId": 10,
+    "serie": "D",
+    "name": "Moto Club",
+    "emblem": "assets/images/teams/moto-club.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 121,
+    "stateId": 16,
+    "serie": "D",
+    "name": "Nacional-PR",
+    "emblem": "assets/images/teams/nacional-pr.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 122,
+    "stateId": 11,
+    "serie": "D",
+    "name": "Operário VG",
+    "emblem": "assets/images/teams/operario-vg.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 123,
+    "stateId": 27,
+    "serie": "D",
+    "name": "Palmas",
+    "emblem": "assets/images/teams/palmas.svg",
+    "level": 1.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 124,
+    "stateId": 13,
+    "serie": "D",
+    "name": "Patrocinense",
+    "emblem": "assets/images/teams/patrocinense.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 125,
+    "stateId": 21,
+    "serie": "D",
+    "name": "Pelotas",
+    "emblem": "assets/images/teams/pelotas.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 126,
+    "stateId": 20,
+    "serie": "D",
+    "name": "Potiguar de Mossoró",
+    "emblem": "assets/images/teams/potiguar-de-mossoro.svg",
+    "level": 1.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 127,
+    "stateId": 18,
+    "serie": "D",
+    "name": "River-PI",
+    "emblem": "assets/images/teams/river-pi.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 128,
+    "stateId": 17,
+    "serie": "D",
+    "name": "Salgueiro",
+    "emblem": "assets/images/teams/salgueiro.svg",
+    "level": 2,
+    "currentPhase": "great"
+  },
+  {
+    "id": 129,
+    "stateId": 3,
+    "serie": "D",
+    "name": "Santos-AP",
+    "emblem": "assets/images/teams/santos-ap.svg",
+    "level": 1.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 130,
+    "stateId": 25,
+    "serie": "D",
+    "name": "São Caetano",
+    "emblem": "assets/images/teams/sao-caetano.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 131,
+    "stateId": 21,
+    "serie": "D",
+    "name": "São Luiz",
+    "emblem": "assets/images/teams/sao-luiz.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 132,
+    "stateId": 16,
+    "serie": "D",
+    "name": "Toledo",
+    "emblem": "assets/images/teams/toledo.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 133,
+    "stateId": 13,
+    "serie": "D",
+    "name": "Tupynambás",
+    "emblem": "assets/images/teams/tupynambas.svg",
+    "level": 2.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 134,
+    "stateId": 11,
+    "serie": "D",
+    "name": "União Rondonópolis",
+    "emblem": "assets/images/teams/uniao-rondonopolis.svg",
+    "level": 3,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 135,
+    "stateId": 22,
+    "serie": "D",
+    "name": "Vilhenense",
+    "emblem": "assets/images/teams/vilhenense.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 136,
+    "stateId": 5,
+    "serie": "D",
+    "name": "Vitória da Conquista",
+    "emblem": "assets/images/teams/vitoria-da-conquista.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 137,
+    "stateId": 8,
+    "serie": "D",
+    "name": "Vitória-ES",
+    "emblem": "assets/images/teams/vitoria-es.svg",
+    "level": 1.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 138,
+    "stateId": 12,
+    "serie": "D",
+    "name": "Aquidauanense",
+    "emblem": "assets/images/teams/aquidauanense.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 139,
+    "stateId": 23,
+    "serie": "D",
+    "name": "Baré",
+    "emblem": "assets/images/teams/bare.svg",
+    "level": 1,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 140,
+    "stateId": 7,
+    "serie": "D",
+    "name": "Brasiliense",
+    "emblem": "assets/images/teams/brasiliense.svg",
+    "level": 1.5,
+    "currentPhase": "great"
+  },
+  {
+    "id": 141,
+    "stateId": 22,
+    "serie": "D",
+    "name": "Ji-Paraná",
+    "emblem": "assets/images/teams/ji-parana.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 142,
+    "stateId": 4,
+    "serie": "D",
+    "name": "Nacional-AM",
+    "emblem": "assets/images/teams/nacional-am.svg",
+    "level": 2,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 143,
+    "stateId": 8,
+    "serie": "D",
+    "name": "Real Noroeste",
+    "emblem": "assets/images/teams/real-noroeste.svg",
+    "level": 3,
+    "currentPhase": "good"
+  },
+  {
+    "id": 144,
+    "stateId": 27,
+    "serie": "D",
+    "name": "Tocantinópolis",
+    "emblem": "assets/images/teams/tocantinopolis.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 145,
+    "stateId": 3,
+    "serie": "D",
+    "name": "Ypiranga-AP",
+    "emblem": "assets/images/teams/ypiranga-ap.svg",
+    "level": 1.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 146,
+    "stateId": 13,
+    "name": "Coimbra",
+    "emblem": "assets/images/teams/coimbra.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 147,
+    "stateId": 13,
+    "name": "Uberlândia",
+    "emblem": "assets/images/teams/uberlandia.svg",
+    "level": 3.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 148,
+    "stateId": 13,
+    "name": "URT",
+    "emblem": "assets/images/teams/urt.svg",
+    "level": 1,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 149,
+    "stateId": 13,
+    "name": "Villa Nova-MG",
+    "emblem": "assets/images/teams/villa-nova-mg.svg",
+    "level": 1.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 150,
+    "stateId": 16,
+    "name": "Cascavel CR",
+    "emblem": "assets/images/teams/cascavel-cr.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 151,
+    "stateId": 16,
+    "name": "Cianorte",
+    "emblem": "assets/images/teams/cianorte.svg",
+    "level": 2,
+    "currentPhase": "good"
+  },
+  {
+    "id": 152,
+    "stateId": 16,
+    "name": "PSTC",
+    "emblem": "assets/images/teams/pstc.svg",
+    "level": 1,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 153,
+    "stateId": 16,
+    "name": "Rio Branco-PR",
+    "emblem": "assets/images/teams/rio-branco-pr.svg",
+    "level": 2.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 154,
+    "stateId": 16,
+    "name": "União Beltrão",
+    "emblem": "assets/images/teams/uniao-beltrao.svg",
+    "level": 2.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 155,
+    "stateId": 21,
+    "name": "Aimoré",
+    "emblem": "assets/images/teams/aimore.svg",
+    "level": 2.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 156,
+    "stateId": 21,
+    "name": "Esportivo",
+    "emblem": "assets/images/teams/esportivo.svg",
+    "level": 2.5,
+    "currentPhase": "good"
+  },
+  {
+    "id": 157,
+    "stateId": 21,
+    "name": "Novo Hamburgo",
+    "emblem": "assets/images/teams/novo-hamburgo.svg",
+    "level": 2,
+    "currentPhase": "terrible"
+  }
+]
