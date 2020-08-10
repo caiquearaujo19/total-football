@@ -1,0 +1,9 @@
+<article *ngIf="open" class="modal-overlay" >
+  <section class="modal">
+    <header class="modal__header">{{title}}</header>
+    <ng-content ></ng-content>
+    <footer class="modal__footer">
+      <div class="modal__footer__btn-confirm" (click)="closeModal()">OK</div>
+    </footer>
+  </section>
+</article>

@@ -1,0 +1,8 @@
+<div class="player-list-item" [ngStyle]="{'background-color': even ? 'rgba(0, 0, 0, 0.03)' : 'transparent'}">
+  <div class="player-list-item__number">{{player.number}}</div>
+  <div class="player-list-item__position">
+    <player-position [position]="player.position"></player-position>
+  </div>
+  <div class="player-list-item__name">{{player.name}}</div>
+  <div class="player-list-item__overall">{{player.overall}}</div>
+</div>

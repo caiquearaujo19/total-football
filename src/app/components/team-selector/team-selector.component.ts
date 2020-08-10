@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter, NgZone } from '@angular/core';
 import { TeamsService } from 'src/app/services/teams/teams.service';
+import { async } from '@angular/core/testing';
 
 @Component({
   selector: 'team-selector',
@@ -35,6 +36,8 @@ export class TeamSelectorComponent implements OnInit {
   }
 
   previousState = () => {
+    this.openTeam = null;
+    this.selectedTeam.emit(undefined);
     if(this.activeState === 0) {
       this.activeState = 26;
     }
@@ -45,6 +48,8 @@ export class TeamSelectorComponent implements OnInit {
   }
 
   nextState = () => {
+    this.openTeam = null;
+    this.selectedTeam.emit(undefined);
     if(this.activeState === 26) {
       this.activeState = 0;
     }
@@ -54,8 +59,8 @@ export class TeamSelectorComponent implements OnInit {
     this.getTeams(this.states[this.activeState].id);
   }
 
-  getTeams(stateId) {
-    this.teams = this.teamsService.getTeamsByState(stateId);
+  getTeams = async (stateId) => {
+    this.teams = await this.teamsService.getTeamsByState(stateId);
   }
   
   selectTeam = (teamIndex) => {

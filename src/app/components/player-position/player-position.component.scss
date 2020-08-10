@@ -1,0 +1,21 @@
+.player-position {
+  height: 19px;
+  width: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &--GOL {
+    background-color: #FF9933
+  }
+  &--ZAG, &--LD, &--LE, &--ADD, &--ADE {
+    background-color: #FFCC00;
+  }
+  &--VOL, &--MC, &--MD, &--ME, &--MEI {
+    background-color: #009933;
+  }
+  &--SA, &--PD, &--PE, &--ATA {
+    background-color: #003399;
+  }
+}

@@ -14,8 +14,8 @@ export class SerieCComponent implements OnInit {
 
   constructor(private teamsService: TeamsService) { }
 
-  ngOnInit(): void {
-    this.teams = this.teamsService.getTeamsBySerie("C");
+  async ngOnInit() {
+    this.teams = await this.teamsService.getTeamsBySerie("C");
   }
 
   onSelect = (team) => {

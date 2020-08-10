@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "teamId": 7,
+    "name": "Diego Alves",
+    "position": "GOL",
+    "number": 1,
+    "age": 35,
+    "country": "Brasil",
+    "overall": 80
+  },
+  {
+    "id": 2,
+    "teamId": 7,
+    "name": "César",
+    "position": "GOL",
+    "number": 37,
+    "age": 28,
+    "country": "Brasil",
+    "overall": 47
+  },
+  {
+    "id": 3,
+    "teamId": 7,
+    "name": "Gabriel Batista",
+    "position": "GOL",
+    "number": 22,
+    "age": 22,
+    "country": "Brasil",
+    "overall": 37
+  },
+  {
+    "id": 4,
+    "teamId": 7,
+    "name": "Hugo Souza",
+    "position": "GOL",
+    "number": 46,
+    "age": 21,
+    "country": "Brasil",
+    "overall": 35
+  },
+  {
+    "id": 5,
+    "teamId": 7,
+    "name": "Rodrigo Caio",
+    "position": "ZAG",
+    "number": 3,
+    "age": 26,
+    "country": "Brasil",
+    "overall": 78
+  },
+  {
+    "id": 6,
+    "teamId": 7,
+    "name": "Thuler",
+    "position": "ZAG",
+    "number": 26,
+    "age": 21,
+    "country": "Brasil",
+    "overall": 47
+  },
+  {
+    "id": 7,
+    "teamId": 7,
+    "name": "Matheus Dantas",
+    "position": "ZAG",
+    "number": 55,
+    "age": 21,
+    "country": "Brasil",
+    "overall": 35
+  },
+  {
+    "id": 8,
+    "teamId": 7,
+    "name": "Gustavo Henrique",
+    "position": "ZAG",
+    "number": 2,
+    "age": 27,
+    "country": "Brasil",
+    "overall": 78
+  },
+  {
+    "id": 9,
+    "teamId": 7,
+    "name": "Léo Pereira",
+    "position": "ZAG",
+    "number": 4,
+    "age": 24,
+    "country": "Brasil",
+    "overall": 76
+  },
+  {
+    "id": 10,
+    "teamId": 7,
+    "name": "João Lucas",
+    "position": "LD",
+    "number": 30,
+    "age": 22,
+    "country": "Brasil",
+    "overall": 38
+  },
+  {
+    "id": 11,
+    "teamId": 7,
+    "name": "Rafinha",
+    "position": "LD",
+    "number": 13,
+    "age": 34,
+    "country": "Brasil",
+    "overall": 74
+  },
+  {
+    "id": 12,
+    "teamId": 7,
+    "name": "Renê",
+    "position": "LE",
+    "number": 6,
+    "age": 27,
+    "country": "Brasil",
+    "overall": 72
+  },
+  {
+    "id": 13,
+    "teamId": 7,
+    "name": "Filipe Luis",
+    "position": "LE",
+    "number": 16,
+    "age": 34,
+    "country": "Brasil",
+    "overall": 79
+  },
+  {
+    "id": 14,
+    "teamId": 7,
+    "name": "William Arão",
+    "position": "VOL",
+    "number": 5,
+    "age": 28,
+    "country": "Brasil",
+    "overall": 80
+  },
+  {
+    "id": 15,
+    "teamId": 7,
+    "name": "Piris Da Motta",
+    "position": "VOL",
+    "number": 25,
+    "age": 25,
+    "country": "Paraguai",
+    "overall": 56
+  },
+  {
+    "id": 16,
+    "teamId": 7,
+    "name": "Hugo Moura",
+    "position": "VOL",
+    "number": 17,
+    "age": 22,
+    "country": "Brasil",
+    "overall": 37
+  },
+  {
+    "id": 17,
+    "teamId": 7,
+    "name": "Vinicius Souza",
+    "position": "VOL",
+    "number": 15,
+    "age": 21,
+    "country": "Brasil",
+    "overall": 37
+  },
+  {
+    "id": 18,
+    "teamId": 7,
+    "name": "Thiago Maia",
+    "position": "VOL",
+    "number": 33,
+    "age": 23,
+    "country": "Brasil",
+    "overall": 56
+  },
+  {
+    "id": 19,
+    "teamId": 7,
+    "name": "Éverton Ribeiro",
+    "position": "MD",
+    "number": 7,
+    "age": 31,
+    "country": "Brasil",
+    "overall": 81
+  },
+  {
+    "id": 20,
+    "teamId": 7,
+    "name": "Diego",
+    "position": "MEI",
+    "number": 10,
+    "age": 35,
+    "country": "Brasil",
+    "overall": 66
+  },
+  {
+    "id": 21,
+    "teamId": 7,
+    "name": "De Arrascaeta",
+    "position": "MEI",
+    "number": 14,
+    "age": 26,
+    "country": "Uruguai",
+    "overall": 83
+  },
+  {
+    "id": 22,
+    "teamId": 7,
+    "name": "Gerson",
+    "position": "MC",
+    "number": 8,
+    "age": 23,
+    "country": "Brasil",
+    "overall": 73
+  },
+  {
+    "id": 23,
+    "teamId": 7,
+    "name": "Pepê",
+    "position": "MEI",
+    "number": 40,
+    "age": 22,
+    "country": "Brasil",
+    "overall": 32
+  },
+  {
+    "id": 24,
+    "teamId": 7,
+    "name": "Gabriel Barbosa",
+    "position": "ATA",
+    "number": 9,
+    "age": 23,
+    "country": "Brasil",
+    "overall": 85
+  },
+  {
+    "id": 25,
+    "teamId": 7,
+    "name": "Vitinho",
+    "position": "PE",
+    "number": 11,
+    "age": 26,
+    "country": "Brasil",
+    "overall": 65
+  },
+  {
+    "id": 26,
+    "teamId": 7,
+    "name": "Bruno Henrique",
+    "position": "PE",
+    "number": 27,
+    "age": 29,
+    "country": "Brasil",
+    "overall": 82
+  },
+  {
+    "id": 27,
+    "teamId": 7,
+    "name": "Berrío",
+    "position": "PD",
+    "number": 28,
+    "age": 29,
+    "country": "Comlômbia",
+    "overall": 50
+  },
+  {
+    "id": 28,
+    "teamId": 7,
+    "name": "Lincoln",
+    "position": "ATA",
+    "number": 29,
+    "age": 19,
+    "country": "Brasil",
+    "overall": 42
+  },
+  {
+    "id": 29,
+    "teamId": 7,
+    "name": "Lucas Silva",
+    "position": "PE",
+    "number": 23,
+    "age": 22,
+    "country": "Brasil",
+    "overall": 45
+  },
+  {
+    "id": 30,
+    "teamId": 7,
+    "name": "Pedro Rocha",
+    "position": "PE",
+    "number": 32,
+    "age": 25,
+    "country": "Brasil",
+    "overall": 55
+  },
+  {
+    "id": 31,
+    "teamId": 7,
+    "name": "Michael",
+    "position": "PE",
+    "number": 19,
+    "age": 24,
+    "country": "Brasil",
+    "overall": 68
+  },
+  {
+    "id": 32,
+    "teamId": 7,
+    "name": "Pedro",
+    "position": "ATA",
+    "number": 21,
+    "age": 23,
+    "country": "Brasil",
+    "overall": 57
+  }
+]

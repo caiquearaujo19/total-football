@@ -1,0 +1,15 @@
+.field {
+  height: 100%;
+  position: relative;
+  
+  &__image {
+    height: 100%;
+  }
+
+  .player {
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    transition: 0.2s linear;
+  }
+}

@@ -12,6 +12,8 @@ import { SerieAComponent } from './pages/serie-a/serie-a.component';
 import { SerieBComponent } from './pages/serie-b/serie-b.component';
 import { SerieCComponent } from './pages/serie-c/serie-c.component';
 import { SerieDComponent } from './pages/serie-d/serie-d.component';
+import { TeamManagementComponent } from './pages/team-management/team-management.component';
+import { TeamsService } from './services/teams/teams.service';
 
 const routes: Routes = [
   {
@@ -57,6 +59,10 @@ const routes: Routes = [
   {
     path: 'tournaments/brasileirao/serie-d',
     component: SerieDComponent
+  },
+  {
+    path: 'team-management/:teamId',
+    component: TeamManagementComponent
   }
 ];
 

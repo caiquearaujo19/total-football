@@ -1,0 +1,46 @@
+.field-player {
+  height: 100%;
+  width: 100%;
+  padding: 4px 0;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.1s linear;
+  position: relative;
+
+  &__icon {
+    & > svg {
+      height: 30px;
+    }
+  }
+
+  &__captain {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 15px;
+    height: 10px;
+    background-color: #FFFFFF;
+    font-size: 9px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__name {
+    text-shadow: 1px 1px #000000;
+    padding: 4px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 12px;
+    transition: 0.1s linear;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &:hover {
+    background-color: rgba( #000000, 0.5);
+  }
+}

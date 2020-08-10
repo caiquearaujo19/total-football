@@ -21,6 +21,12 @@ import { SerieAComponent } from './pages/serie-a/serie-a.component';
 import { SerieBComponent } from './pages/serie-b/serie-b.component';
 import { SerieCComponent } from './pages/serie-c/serie-c.component';
 import { SerieDComponent } from './pages/serie-d/serie-d.component';
+import { TeamManagementComponent } from './pages/team-management/team-management.component';
+import { PlayerPositionComponent } from './components/player-position/player-position.component';
+import { PlayerListItemComponent } from './components/player-list-item/player-list-item.component';
+import { ModalComponent } from './components/modal/modal.component';
+import { FieldComponent } from './components/field/field.component';
+import { FieldPlayerComponent } from './components/field-player/field-player.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +47,13 @@ import { SerieDComponent } from './pages/serie-d/serie-d.component';
     SerieAComponent,
     SerieBComponent,
     SerieCComponent,
-    SerieDComponent
+    SerieDComponent,
+    TeamManagementComponent,
+    PlayerPositionComponent,
+    PlayerListItemComponent,
+    ModalComponent,
+    FieldComponent,
+    FieldPlayerComponent
   ],
   imports: [
     BrowserModule,

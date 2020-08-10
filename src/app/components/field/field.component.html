@@ -1,0 +1,9 @@
+<section class="field">
+  <img class="field__image" src="../../../assets/images/field.svg">
+  <div
+    *ngFor="let player of players; let i = index"
+    class="player"
+    [ngStyle]="{top: formation.positions[i].top, left: formation.positions[i].left}">
+    <field-player [name]="player.name" [shirtColor]="color" [captain]="player.id === captain"></field-player>
+  </div>
+</section>

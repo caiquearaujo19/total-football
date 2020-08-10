@@ -1,0 +1,43 @@
+.player-list-item {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: #4D4D4D;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0.6;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+
+    .player-list-item__overall {
+      color: green;
+    }
+  }
+  
+  &__number {
+    height: 19px;
+    width: 19px;
+    background-color: #333333;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+
+  &__position {
+    margin-right: 10px;
+  }
+
+  &__name {
+    padding: 2px 10px 0 10px;
+    border-left: 1px solid #CCCCCC;
+  }
+
+  &__overall {
+    flex-grow: 1;
+    text-align: right;
+  }
+}

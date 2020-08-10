@@ -1,0 +1,131 @@
+.team-management {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &--blur {
+    filter: blur(2px);
+  }
+
+  &__container {
+    height: 450px;
+    opacity: 0;
+    animation: showContent 0.5s ease-in-out forwards 0.1s;
+
+    &__header {
+      height: 60px;
+      background-color: rgba(#FFF1BA, 0.9);
+      color: #4D4D4D;
+      margin-bottom: 10px;
+      background-size: 250px;
+      background-repeat: no-repeat;
+      animation: moveStateFlagHeader 20s ease-in-out infinite;
+      display: flex;
+      align-items: center;
+      padding: 10px 15px;
+      box-sizing: border-box;
+      font-size: 18px;
+
+      & > img {
+        height: 40px;
+        margin-right: 15px;
+      }
+    }
+
+    &__content {
+      height: 380px;
+      display: flex;
+
+      .bench {
+        width: 250px;
+
+        &__header {
+          height: 40px;
+          background-color: rgba(#FFF1BA, 0.9);
+          color: #4D4D4D;
+          padding: 0 15px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        
+        &__list {
+          height: 340px;
+          background-color: rgba(#FFFFFF, 0.9);
+          overflow-y: auto;
+        }
+      }
+
+      .field {
+        width: 570px;
+        background-color: rgba(#FFFFFF, 0.9);
+        margin: 0 10px;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+
+      .actions {
+        width: 200px;
+
+        &__btn {
+          height: 60px;
+          background-color: rgba(#FFFFFF, 0.9);
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 24px;
+          transition: 0.1s linear;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.03);
+            background-color: rgba(#FFF1BA, 0.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+.formations-modal {
+  padding: 10px 10px 20px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+
+  &__item {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(#FFFFFF, 0.9);
+    font-size: 18px;
+    color: #4D4D4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &--active {
+      background-color: rgba(#FFF1BA, 0.9);
+      cursor: default;
+    }
+    &:hover {
+      background-color: rgba(#FFF1BA, 0.9);
+    }
+  }
+}
+
+@keyframes showContent {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes moveStateFlagHeader {
+  0%, 100% { background-position: 813px 0px   }
+  50%      { background-position: 838px -66px }
+}

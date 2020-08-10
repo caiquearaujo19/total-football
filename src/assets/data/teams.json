@@ -57,7 +57,11 @@
     "name": "Flamengo",
     "emblem": "assets/images/teams/flamengo.svg",
     "level": 4.5,
-    "currentPhase": "great"
+    "currentPhase": "great",
+    "formation": "4-2-2-2",
+    "startingPlayers": [1, 13, 9, 5, 11, 14, 22, 21, 19, 26, 24],
+    "captainId": 19,
+    "color": "#D2232A"
   },
   {
     "id": 8,
@@ -1381,5 +1385,45 @@
     "emblem": "assets/images/teams/novo-hamburgo.svg",
     "level": 2,
     "currentPhase": "terrible"
+  },
+  {
+    "id": 158,
+    "stateId": 5,
+    "name": "Doce Mel",
+    "emblem": "assets/images/teams/doce-mel.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
+  },
+  {
+    "id": 159,
+    "stateId": 5,
+    "name": "Fluminense de Feira",
+    "emblem": "assets/images/teams/fluminense-de-feira.svg",
+    "level": 2,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 160,
+    "stateId": 5,
+    "name": "Jacobina",
+    "emblem": "assets/images/teams/jacobina.svg",
+    "level": 1.5,
+    "currentPhase": "terrible"
+  },
+  {
+    "id": 161,
+    "stateId": 5,
+    "name": "Juazeirense",
+    "emblem": "assets/images/teams/juazeirense.svg",
+    "level": 1.5,
+    "currentPhase": "regular"
+  },
+  {
+    "id": 162,
+    "stateId": 24,
+    "name": "Juventus-SC",
+    "emblem": "assets/images/teams/juventus-sc.svg",
+    "level": 2.5,
+    "currentPhase": "bad"
   }
 ]

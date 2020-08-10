@@ -49,12 +49,14 @@
     {
       "title": "Campeonato Acreano",
       "action": "",
-      "background": "assets/images/states/acre-tr.png"
+      "background": "assets/images/states/acre-tr.png",
+      "image": "assets/images/states/acre-f.svg"
     },
     {
       "title": "Campeonato Alagoano",
       "action": "",
-      "background": "assets/images/states/alagoas-tr.png"
+      "background": "assets/images/states/alagoas-tr.png",
+      "image": "assets/images/states/alagoas-f.svg"
     },
     {
       "title": "Campeonato Amapaense",
@@ -65,7 +67,8 @@
     {
       "title": "Campeonato Amazonense",
       "action": "",
-      "background": "assets/images/states/amazonas-tr.png"
+      "background": "assets/images/states/amazonas-tr.png",
+      "image": "assets/images/states/amazonas-f.svg"
     },
     {
       "title": "Campeonato Baiano",
@@ -100,7 +103,8 @@
     {
       "title": "Campeonato Cearense",
       "action": "",
-      "background": "assets/images/states/ceara-tr.png"
+      "background": "assets/images/states/ceara-tr.png",
+      "image": "assets/images/states/ceara-f.svg"
     },
     {
       "title": "Campeonato Gaúcho",
@@ -117,7 +121,8 @@
     {
       "title": "Campeonato Maranhense",
       "action": "",
-      "background": "assets/images/states/maranhao-tr.png"
+      "background": "assets/images/states/maranhao-tr.png",
+      "image": "assets/images/states/maranhao-f.svg"
     },
     {
       "title": "Campeonato Mato-grossense",
@@ -146,7 +151,8 @@
     {
       "title": "Campeonato Paranaense",
       "action": "",
-      "background": "assets/images/states/parana-tr.png"
+      "background": "assets/images/states/parana-tr.png",
+      "image": "assets/images/states/parana-f.svg"
     },
     {
       "title": "Campeonato Paulista",
@@ -157,37 +163,44 @@
     {
       "title": "Campeonato Pernambucano",
       "action": "",
-      "background": "assets/images/states/pernambuco-tr.png"
+      "background": "assets/images/states/pernambuco-tr.png",
+      "image": "assets/images/states/pernambuco-f.svg"
     },
     {
       "title": "Campeonato Piauiense",
       "action": "",
-      "background": "assets/images/states/piaui-tr.png"
+      "background": "assets/images/states/piaui-tr.png",
+      "image": "assets/images/states/piaui-f.svg"
     },
     {
       "title": "Campeonato Potiguar",
       "action": "",
-      "background": "assets/images/states/rio-grande-do-norte-tr.png"
+      "background": "assets/images/states/rio-grande-do-norte-tr.png",
+      "image": "assets/images/states/rio-grande-do-norte-f.svg"
     },
     {
       "title": "Campeonato Rondoniense",
       "action": "",
-      "background": "assets/images/states/rondonia-tr.png"
+      "background": "assets/images/states/rondonia-tr.png",
+      "image": "assets/images/states/rondonia-f.svg"
     },
     {
       "title": "Campeonato Roraimense",
       "action": "",
-      "background": "assets/images/states/roraima-tr.png"
+      "background": "assets/images/states/roraima-tr.png",
+      "image": "assets/images/states/roraima-f.svg"
     },
     {
       "title": "Campeonato Sergipano",
       "action": "",
-      "background": "assets/images/states/sergipe-tr.png"
+      "background": "assets/images/states/sergipe-tr.png",
+      "image": "assets/images/states/sergipe-f.svg"
     },
     {
       "title": "Campeonato Sul-Mato-grossense",
       "action": "",
-      "background": "assets/images/states/mato-grosso-do-sul-tr.png"
+      "background": "assets/images/states/mato-grosso-do-sul-tr.png",
+      "image": "assets/images/states/mato-grosso-do-sul-f.svg"
     },
     {
       "title": "Tocantinense",
