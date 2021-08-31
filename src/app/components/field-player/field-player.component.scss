@@ -13,13 +13,22 @@
     }
   }
 
+  &__overall {
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 1px #000000;
+  }
+
   &__captain {
     position: absolute;
     top: 25px;
     left: 25px;
     width: 15px;
     height: 10px;
-    background-color: #FFFFFF;
+    background-color: yellow;
     font-size: 9px;
     font-family: 'Roboto';
     font-weight: bold;

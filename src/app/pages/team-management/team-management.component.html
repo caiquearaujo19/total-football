@@ -1,6 +1,6 @@
 <article [ngClass]="{'team-management': true, 'team-management--blur': formationsModalOpen}">
   <page-header [breadcrumb]="['Gerenciamento do time']"></page-header>
-  <section *ngIf="team !== undefined && state !== undefined" class="team-management__container">
+  <section *ngIf="team && state" class="team-management__container">
     <header class="team-management__container__header" [ngStyle]="{'background-image': 'url(' + state.flag + ')'}">
       <img src="{{team.emblem}}">
       {{team.name}}
@@ -9,17 +9,17 @@
       <div class="bench">
         <header class="bench__header">BANCO DE RESERVAS</header>
         <div class="bench__list">
-          <div *ngIf="reservePlayers !== undefined">
+          <div *ngIf="reservePlayers">
             <player-list-item *ngFor="let player of reservePlayers; let i = index" [player]="player" [even]="i%2==0"></player-list-item>
           </div>
         </div>
       </div>
       <div class="field">
-        <field *ngIf="formations !== undefined" [formation]="formations[formationActiveIndex]" [players]="startingPlayers" [captain]="team.captainId" [color]="team.color"></field>
+        <field *ngIf="formations" [formation]="formations[formationActiveIndex]" [players]="startingPlayers" [captain]="team.captainId" [color]="team.color"></field>
       </div>
       <div class="actions">
         <div class="actions__btn" (click)="toggleFormationsModal()">
-          <span *ngIf="formations !== undefined">{{formations[formationActiveIndex].name}}</span>
+          <span *ngIf="formations">{{formations[formationActiveIndex].name}}</span>
         </div>
         <div class="actions__btn">AVANÇAR</div>
       </div>

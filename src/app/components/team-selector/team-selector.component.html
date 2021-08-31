@@ -1,4 +1,4 @@
-<section *ngIf="teams !== undefined" [ngClass]="{'team-selector': !expanded, 'team-selector--expanded': expanded}">
+<section *ngIf="teams" [ngClass]="{'team-selector': !expanded, 'team-selector--expanded': expanded}">
   <div *ngIf="groupByState" class="team-selector__state-selector" [ngStyle]="{'background-image': 'url(' + states[activeState].flag + ')'}">
     <span [ngClass]="{'navigation-button': true, 'previous': true}" (click)="previousState()">
       <img src="../../../assets/icons/menu-left.svg">

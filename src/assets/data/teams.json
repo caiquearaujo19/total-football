@@ -58,9 +58,9 @@
     "emblem": "assets/images/teams/flamengo.svg",
     "level": 4.5,
     "currentPhase": "great",
-    "formation": "4-2-2-2",
-    "startingPlayers": [1, 13, 9, 5, 11, 14, 22, 21, 19, 26, 24],
-    "captainId": 19,
+    "formation": "4-2-3-1",
+    "startingPlayers": [1, 11, 6, 5, 27, 16, 12, 21, 17, 15, 19],
+    "captainId": 16,
     "color": "#D2232A"
   },
   {

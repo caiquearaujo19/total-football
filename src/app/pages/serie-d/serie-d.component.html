@@ -1,19 +1,19 @@
-<article *ngIf="teams !== undefined" class="serie-d">
+<article *ngIf="teams" class="serie-d">
   <page-header [breadcrumb]="['Torneios', 'Brasileirão', 'Série D']"></page-header>
   <section class="serie-d__content">
     <team-selector [expanded]="true" [teamsList]="teams" (selectedTeam)="onSelect($event)"></team-selector>
-    <div *ngIf="teams !== undefined" class="serie-d__content__info-container">
+    <div class="serie-d__content__info-container">
       <div class="serie-d__content__info-container__selected-team">
         <div class="team-emblem">
-          <img *ngIf="selectedTeam === undefined" src="../../../../../assets/images/emblem.svg">
-          <img *ngIf="selectedTeam !== undefined" src="{{selectedTeam.emblem}}">
+          <img *ngIf="!selectedTeam" src="../../../../../assets/images/emblem.svg">
+          <img *ngIf="selectedTeam" src="{{selectedTeam.emblem}}">
         </div>
         <div class="objective-title">Objetivo da diretoria:</div>
         <div class="objective-value">{{objective}}</div>
       </div>
       <div [ngClass]="{
         'serie-d__content__info-container__advance-btn': true,
-        'serie-d__content__info-container__advance-btn--disabled': selectedTeam === undefined}">
+        'serie-d__content__info-container__advance-btn--disabled': !selectedTeam}">
         Avançar
       </div>
     </div>

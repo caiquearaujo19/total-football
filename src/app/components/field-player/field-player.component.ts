@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FieldPlayerComponent implements OnInit {
 
-  @Input() name: string;
+  @Input() player: any;
   @Input() captain: boolean;
   @Input() shirtColor: string;
 

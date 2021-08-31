@@ -1,3 +1,5 @@
+@import './assets/fonts/fonts.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   animation: animateBg 40s linear infinite;
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   user-select: none;
 }
 

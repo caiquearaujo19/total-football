@@ -22,7 +22,7 @@ export class TeamSelectorComponent implements OnInit {
   constructor(private teamsService: TeamsService, private ngZone: NgZone) { }
 
   ngOnInit(): void {
-    if(this.teamsList !== undefined) {
+    if(this.teamsList) {
       this.teams = this.teamsList;
     }
     else {

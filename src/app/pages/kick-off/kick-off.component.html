@@ -8,8 +8,8 @@
     <team-selector (selectedTeam)="onSelectAway($event)" [groupByState]="true"></team-selector>
   </div>
   <div
-    *ngIf="selectedHomeTeam !== undefined && selectedAwayTeam !== undefined"
-    ngClass="kick-off__advance-btn"
+    *ngIf="selectedHomeTeam && selectedAwayTeam"
+    class="kick-off__advance-btn"
     [routerLink]="['/team-management', selectedHomeTeam.id]">
     AVANÇAR
   </div>

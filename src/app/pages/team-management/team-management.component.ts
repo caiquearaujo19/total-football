@@ -47,6 +47,8 @@ export class TeamManagementComponent implements OnInit {
   setReservePlayers = () => {
     this.reservePlayers = [];
     this.reservePlayers = this.players.filter(val => !this.startingPlayers.includes(val));
+    let order = ["GOL", "ZAG", "LD", "LE", "VOL", "MD", "ME", "MEI", "PD", "PE", "SA", "ATA"];
+    this.reservePlayers.sort((a, b) => order.indexOf(a.position) - order.indexOf(b.position));
   }
 
   toggleFormationsModal = () => {
